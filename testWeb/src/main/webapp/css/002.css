@@ -1,0 +1,290 @@
+html body,html td,html th,html .pl,html input{
+	font-size:13px
+}
+body, td, th {
+    font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+body {
+    margin: 0;
+}
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+}
+#db-global-nav {
+    height: 28px;
+    color: #d5d5d5;
+    background-color: #545652;
+    min-width: 950px;
+}
+#db-global-nav {
+    font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+    font-size: 12px;
+}
+div html{
+    display: block;
+}
+#db-global-nav .top-nav-info {
+    float: right;
+    margin: 0 12px 0 0;
+    line-height: 28px;
+}
+#db-global-nav .top-nav-info a {
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    padding: 0 12px;
+    height: 28px;
+}
+html {
+    color: #111;
+    background: #fff;
+}
+#db-global-nav a:link, #db-global-nav a:visited, #db-global-nav a:hover, #db-global-nav a:active {
+    color: #d5d5d5;
+}
+#db-global-nav a {
+    cursor: pointer;
+    text-decoration: none;
+}
+#db-global-nav .global-nav-items li {
+    display: inline-block;
+    zoom: 1;
+    line-height: 28px;
+    font-size: 12px;
+    vertical-align: baseline;
+}
+#db-global-nav .global-nav-items a {
+    display: inline-block;
+    zoom: 1;
+    padding: 0 12px;
+    height: 28px;
+}
+#db-nav-book {
+    background: #f6f6f1;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    min-width: 1040px;
+    overflow: hidden;
+    zoom: 1;
+}
+#db-nav-book .nav-wrap {
+    border-color: #e9e9e2;
+}
+.nav .nav-wrap {
+    border-bottom: 1px solid #e5ebe4;
+}
+.nav .nav-primary {
+    width: 1040px;
+    margin: 0 auto;
+    overflow: visible !important;
+    position: relative;
+    padding: 10px 0 5px;
+    zoom: 1;
+}
+.nav .nav-logo {
+    float: left;
+    height: 56px;
+    width: 145px;
+    margin: 0 13px 0 0;
+}
+
+.nav-search {
+    margin-left: 145px;
+    overflow: visible !important;
+    position: relative;
+    zoom: 1;
+    padding: 10px 0 15px 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+.nav-search fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    position: static;
+}
+.nav-search label {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    line-height: 30px;
+    cursor: text;
+    color: #bbb;
+    width: auto;
+}
+.nav-search .inp {
+    float: left;
+    width: 470px;
+    height: 34px;
+    text-align: center;
+    margin-right: -3px;
+    cursor: text;
+}
+.nav-search .inp-btn {
+    position: relative;
+    left: -1px;
+    width: 37px;
+    height: 34px;
+    zoom: 1;
+    overflow: hidden;
+}
+.input-txt {
+    width: 324px;
+    height: 31px;
+    line-height: 31px;
+    border: 0;
+    padding: 0 0 0 0px;
+    float: left;
+    color: #666;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    background:  9px 9px no-repeat #ffffff;
+}
+.input-btn {
+    width: 98px;
+    height: 32px;
+    overflow: hidden;
+    
+    border: 0;
+    cursor: pointer;
+    background: url(http://www.qqxsw.co/css/sbtn.gif) -1px -35px no-repeat;
+    text-indent: -9999px;
+    
+}
+.user-wrap {
+    position: relative;
+    float: right;
+}
+.nav-secondary {
+    width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+    height:25px;
+}
+.nav-secondary .nav-items {
+    float: none;
+    zoom: 1;
+    font-size: 14px;
+    height:25px;
+}
+.nav-secondary ul {
+    margin: 0px 0;
+    height:25px;
+}
+ul, ol {
+    list-style: none;
+}
+#db-nav-book .nav-secondary li {
+    margin-right: 25px;
+}
+.nav-secondary li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-right: 25px;
+    height:25px;
+    width: 100px;
+    float:left;
+}
+#db-nav-book a:link, #db-nav-book a:visited {
+    color: #614e3c;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+#wrapper {
+    width: 1040px;
+}
+.ad-placeholder {
+    overflow: hidden;
+    zoom: 1;
+    float:left;
+    position: relative; margin: 0px 0px 20px; display: block; width: 1040px; height: 98px; overflow: hidden;
+}
+.nav-items li a {
+	height: 25px;
+	text-align: center;
+    padding: 0 15px;
+}
+li.selected {
+    background-color:#ecece6;
+}
+li.selected a{
+    color:white;
+}
+nav-items ul{
+    background-color: #338ad1;
+    height: 25px;
+        display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 25px;
+}
+nav-items {
+    background-color: #338ad1;
+    height: 25px;
+}
+.fllist {
+    border: 1px solid #ecece6;
+    border-width: 1px 1px 1px 1px;
+    height: 145px;
+    
+}
+.fllist-item {
+    line-height: 30px;
+}
+div {
+    display: block;
+}
+.fllist-span li {
+    display: list-item;
+    float: left;
+    height: 20px;
+    margin: 0 8px ;
+    width: 70px;
+}
+#wrapper{
+	margin-top: 8px ;
+	height: 150px;
+}
+.fllist-books{
+	height: 30px;
+	background: #f6f6f1;
+}
+.wrapper-books{
+	
+}
+.ad-books .fllist-books{
+    height: 25px;
+    background: #f7fdf1;
+}
+.ad-books {
+    height:300px;
+    border: 1px solid #ecece6;
+    border-width: 1px 1px 1px 1px;
+}
+.ad-books table{
+    width:100%;
+    border-spacing:0;
+}
+.ad-books table thead{
+    background-color: #f6f6f1;
+}
+.ad-books table tbody td{
+    border: 1px solid #ecece6;
+    border-width: 0px 0px 1px 0px;
+}
